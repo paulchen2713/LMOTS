@@ -24,3 +24,6 @@ function out = bitand_64(a_hex, b_hex)
     a_b_hex = strcat(a_b_left_hex, a_b_right_hex);
     out = a_b_hex;
 return
+
+
+
