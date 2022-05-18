@@ -15,7 +15,6 @@ function out=bitshift_right_64(a_hex, num)
         temp_left = bitget(a_left_dec, 1:shift_num);
         a_left_dec  = bitshift(a_left_dec, -shift_num);
         a_right_dec = bitshift(a_right_dec, -shift_num);
-        
         for i = 1:shift_num
             a_right_dec = bitset(a_right_dec, 32 - shift_num + i, temp_left(i));
         end
@@ -26,12 +25,10 @@ function out=bitshift_right_64(a_hex, num)
         temp_left = bitget(a_left_dec, (shift_num - 32 + 1):32);
         a_left_dec  = uint32(0);
         a_right_dec = uint32(0);
-        
         for i = 1:64-shift_num
             a_right_dec = bitset(a_right_dec, i, temp_left(i)) ;
         end
     end
-    
     a_left_hex  = dec2hex(a_left_dec, 8);
     a_right_hex = dec2hex(a_right_dec, 8);
     
