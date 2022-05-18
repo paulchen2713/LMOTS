@@ -9,8 +9,7 @@ K256=['428a2f98'; '71374491'; 'b5c0fbcf'; 'e9b5dba5'; '3956c25b'; '59f111f1'; '9
 H224=['';'';'';'';'';'';'';''];
 H256=['6a09e667'; 'bb67ae85'; '3c6ef372'; 'a54ff53a'; '510e527f'; '9b05688c'; '1f83d9ab'; '5be0cd19'];
 
-KT=[
-    '428a2f98d728ae22'; '7137449123ef65cd'; 'b5c0fbcfec4d3b2f'; 'e9b5dba58189dbbc';
+KT=['428a2f98d728ae22'; '7137449123ef65cd'; 'b5c0fbcfec4d3b2f'; 'e9b5dba58189dbbc';
     '3956c25bf348b538'; '59f111f1b605d019'; '923f82a4af194f9b'; 'ab1c5ed5da6d8118';
     'd807aa98a3030242'; '12835b0145706fbe'; '243185be4ee4b28c'; '550c7dc3d5ffb4e2';
     '72be5d74f27b896f'; '80deb1fe3b1696b1'; '9bdc06a725c71235'; 'c19bf174cf692694';
@@ -30,8 +29,7 @@ KT=[
     '06f067aa72176fba'; '0a637dc5a2c898a6'; '113f9804bef90dae'; '1b710b35131c471b';
     '28db77f523047d84'; '32caab7b40c72493'; '3c9ebe0a15c9bebc'; '431d67c49c100d4c';
     '4cc5d4becb3e42b6'; '597f299cfc657e2a'; '5fcb6fab3ad6faec'; '6c44198c4a475817'];
-H=[
-    '6a09e667f3bcc908';
+H = ['6a09e667f3bcc908';
     'bb67ae8584caa73b';
     '3c6ef372fe94f82b';
     'a54ff53a5f1d36f1';
@@ -39,3 +37,5 @@ H=[
     '9b05688c2b3e6c1f';
     '1f83d9abfb41bd6b';
     '5be0cd19137e2179'];
+
+
