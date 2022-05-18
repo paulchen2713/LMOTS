@@ -12,8 +12,8 @@ function out = bitshift_circular_right(a, n)
     % end
     % out = a;
 
-    ar = bitshift(a, -n);
-    al = double(bitshift(uint32(a), 32-n));
+    ar  = bitshift(a, -n);
+    al  = double(bitshift(uint32(a), 32-n));
     out = bitor(ar, al);
 return
 
